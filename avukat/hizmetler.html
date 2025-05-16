@@ -1,0 +1,34 @@
+<?php
+$avukatAdi = "Av. Ahmet Yılmaz";
+$telefon = "0555 123 45 67";
+$email = "iletisim@ahmetyilmazhukuk.com";
+$adres = "Kızılay, Ankara";
+?>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hizmetlerimiz | <?php echo $avukatAdi; ?></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1><?php echo $avukatAdi; ?></h1>
+    <p>Hukuk ve Danışmanlık Bürosu</p>
+</header>
+<nav>
+    <a href="index.php">Ana Sayfa</a>
+    <a href="hakkimizda.php">Hakkımızda</a>
+    <a href="hizmetler.php">Hizmetlerimiz</a>
+    <a href="sss.php">SSS</a>
+    <a href="iletisim.php">İletişim</a>
+</nav>
+<main>
+    <h2>Hizmetlerimiz</h2><ul><li>Ceza Hukuku</li><li>Aile Hukuku</li><li>İcra ve İflas Hukuku</li><li>Gayrimenkul Hukuku</li><li>İş Hukuku</li><li>Danışmanlık Hizmetleri</li></ul><img class='banner' src='https://images.unsplash.com/photo-1588776814608-91128d9c1e42' alt='Hizmet görseli'>
+</main>
+<footer>
+    &copy; <?php echo date("Y"); ?> <?php echo $avukatAdi; ?> - Tüm Hakları Saklıdır.
+</footer>
+</body>
+</html>
